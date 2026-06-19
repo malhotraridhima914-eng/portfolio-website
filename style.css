@@ -93,7 +93,7 @@ body{
 }
 
 .image{
-    width: 50%;
+    width: 40%;
 }
 
 .baa{
@@ -225,3 +225,7 @@ a{
 .cpp i{
     font-size: 25px;
 }
+
+
+/* for mobile  */
+
