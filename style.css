@@ -337,6 +337,41 @@ button{
     align-items: center;
     gap: 1px;
 }
+
+.success-msg{
+    background:rgba(139,92,246,0.15);
+    border:1px solid blueviolet;
+    color:white;
+
+    padding:15px 20px;
+    border-radius:12px;
+
+    width:fit-content;
+
+    margin:20px auto;
+
+    box-shadow:0 0 15px rgba(139,92,246,0.4);
+}
+
+.success-msg{
+    animation:fadeOut 3s forwards;
+}
+
+@keyframes fadeOut{
+    0%{
+        opacity:1;
+    }
+
+    80%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0;
+        display:none;
+    }
+}
+
 /* for mobile  */
 
 @media (max-width: 768px){
