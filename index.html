@@ -51,8 +51,10 @@
         </a>
         </div>
         <div class="bab">
+            <a href="#contact">
             Contact Me 
             <i class="fa-solid fa-phone"></i>
+        </a>
         </div>
     </div>
     <div class="social">
@@ -79,7 +81,7 @@
     </div>
 </div>
     <div class="image">
-        <img src="/Applications/XAMPP/xamppfiles/htdocs/portfolio/ChatGPT Image Jun 19, 2026, 01_46_12 PM.png" alt="picture" width="400px" height="410px">
+        <img src="/Applications/XAMPP/xamppfiles/htdocs/portfolio/ChatGPT Image Jun 19, 2026, 01_46_12 PM.png" alt="picture" width="390px" height="410px">
     </div>
 </div>
 
@@ -111,8 +113,8 @@
 </div>
 
 <!-- Skills -->
-<div>
-    <div class="ss">
+<div class="skill">
+    <div class="ss" id="skills">
         My Skills
     </div>
     <div class="ts">
@@ -164,27 +166,102 @@
     </div>
 </div>
 
+<!-- Projects -->
+<div  class="projects" id="projects">
 
-    <div class="Projects">
-        
+    <div class="section-title" id="project">
+        MY PROJECTS
     </div>
-    <div class="Contact">
+
+    <h2>Things I've Built</h2>
+
+    <div id="projects-container"></div>
+
+</div>
+
+<!-- CONTACT -->
+    <div>
+        <DIV  class="Contact" id="contact">
+            <div>
+                <div class="co"><h3>LET'S CONNECT</h3></div>
+                <div class="cp">Have a project in mind?</div>
+                <div>
+                    <p>I'm open to oppurtunities and collaborations.</p>
+                </div>
+                <div>
+                    <p>Let's built something together!</p>
+                </div>
+            </div>
+            <div>
+                <form action="" method="post">
+                    <input type="text" placeholder="Your name">
+                    <input type="email" placeholder="Your emial"><br><br>
+                    <textarea placeholder="Your message"></textarea>
+                    <button>Send message<i class="fa-solid fa-paper-plane fa-lg" style="color: rgb(252, 250, 250);"></i></button>
+                </form>
+            </div>
+        </DIV>
 
     </div>
-    <div class="Footer">
 
+<!-- Footer -->
+    
+<div class="Footer">
+        <div>
+            <div class="aa">
+                <div class="aaa">Ridhima</div>
+                <div class="aab">.</div>
+            </div>
+            <div>
+                <p>Building Ideas. Creating Solutions.</p>
+            </div>
+            <div>
+                <p>©️ 2026 Ridhima. All rights reserved.</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <b>Quick Links</b>
+            </div>
+            <div class="head">
+                <div><a href="#home">Home</a></div>
+                <div><a href="#about">About</a></div>
+                <div><a href="#skills">Skills</a></div>
+                <div><a href="#project">Projects</a></div>
+                <div><a href="#contact">Contact</a></div>
+            </div>
+        </div>
+        <div>
+            <div><b>Connect</b></div>
+        <div class="social">
+            <div class="github">
+                <a href="https://github.com/malhotraridhima914-eng" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            </div>
+            <div class="insta">
+                <a href="https://www.instagram.com/ridmalhotra1301/" target="_blank" rel="noopener">
+                <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/ridhima-malhotra-6936832a5" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+            <div class="mail">
+                <a href="mailto:malhotraridhima914@gmial.com" target="_blank">
+                <i class="fa-regular fa-envelope"></i>
+            </a>
+            </div>
+        </div>
     </div>
+
+</div>
     
     
     
 <script src="script.js" defer></script>
-
-<script>
-  // Force scroll position to top on every load (fixes hash-based jumps)
-  window.addEventListener('load', () => {
-    history.replaceState(null, '', window.location.pathname + window.location.search);
-    window.scrollTo(0, 0);
-  });
 </script>
 </body>
 </html>
