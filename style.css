@@ -25,9 +25,6 @@ img{
     display: block;
 }
 
-/* =========================
-   NAVBAR
-========================= */
 .a{
     display: flex;
     justify-content: space-between;
@@ -103,9 +100,6 @@ img{
     border: none;
 }
 
-/* =========================
-   HERO / INTRO
-========================= */
 .intro{
     background-color: rgb(29, 28, 39);
     display: flex;
@@ -225,9 +219,6 @@ img{
     box-shadow: 0 8px 22px rgba(0,0,0,0.28);
 }
 
-/* =========================
-   COMMON SECTION SPACING
-========================= */
 .about,
 .skill,
 .projects,
@@ -236,9 +227,6 @@ img{
     padding: 60px 40px;
 }
 
-/* =========================
-   ABOUT
-========================= */
 .about{
     display: flex;
     justify-content: space-between;
@@ -299,9 +287,6 @@ img{
     margin-right: 10px;
 }
 
-/* =========================
-   SKILLS
-========================= */
 .skill{
     box-shadow: 0 0 20px rgba(147,51,234,0.2);
 }
@@ -360,9 +345,6 @@ img{
     font-size: 32px;
 }
 
-/* =========================
-   PROJECTS
-========================= */
 .projects{
     box-shadow: 0 0 20px rgba(147,51,234,0.2);
 }
@@ -424,9 +406,6 @@ img{
     font-weight: 600;
 }
 
-/* =========================
-   CONTACT
-========================= */
 .Contact{
     display: flex;
     justify-content: space-between;
@@ -504,9 +483,6 @@ button:hover{
     box-shadow: 0 8px 20px rgba(147,51,234,0.3);
 }
 
-/* =========================
-   FOOTER
-========================= */
 .Footer{
     display: flex;
     justify-content: space-between;
@@ -536,10 +512,7 @@ button:hover{
     color: #e6e6e6;
 }
 
-/* =========================
-   SUCCESS MESSAGE
-========================= */
-.success-msg{
+/* .success-msg{
     background: rgba(139,92,246,0.15);
     border: 1px solid blueviolet;
     color: white;
@@ -549,7 +522,7 @@ button:hover{
     margin: 20px auto;
     box-shadow: 0 0 15px rgba(139,92,246,0.4);
     animation: fadeOut 3s forwards;
-}
+} */
 
 @keyframes fadeOut{
     0%{ opacity: 1; }
@@ -557,9 +530,8 @@ button:hover{
     100%{ opacity: 0; }
 }
 
-/* =========================
-   MOBILE
-========================= */
+/* for mobile */
+
 @media (max-width: 768px){
 
     .a{
